@@ -10,6 +10,10 @@ The implementations were tested against implementations of the sieve of Eratosth
 
 For higher than 10^9 limits and faster executions one should use e.g. segmented wheel sieve. For more information on the Myriad prime sieve and comparison to other sieves, see the related Master's thesis (.pdf).
 
+The original idea of the prime sieve was conjured from a geometrical pattern observed in the squares of primes. Below is an illustration of the pattern with n=7.
+![Alt text](https://github.com/JuhaniSipila/MyriadPrimes/blob/master/primeSquareWhiteWithBorders.svg?sanitize=true)
+<img src="https://github.com/JuhaniSipila/MyriadPrimes/blob/master/primeSquareWhiteWithBorders.svg?sanitize=true">
+
 ### JS implementation
 
 The JavaScript implementation takes as a parameter the limit upto which primes are generated. Returns an array containing the primes upto the limit.
